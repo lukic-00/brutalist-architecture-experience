@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Rubik Mono One", monospace;
+    background-color: grey;
+    scroll-behavior: smooth;
+
+  }
+
+.hero {
+    height: 100%; 
+    background-image: url(images/IMG_4274-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 150px;
+    word-wrap: break-word;
+    font-family: "Monoton", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    color: white;
+}
+
+.cardsContainer {
+    background-image: linear-gradient(lightgrey, white);
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.europeCard {
+    background-image: url(images/IMG_3269.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-basis: 500px;
+    height: 350px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.asiaCard {
+    background-image: url(images/IMG_5414.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-basis: 500px;
+    height: 350px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cardDescription {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.cardDescription:hover{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    font-size: 70px;
+    cursor: pointer;
+
+}
+
+.aboutContainer {
+    background-color: grey;
+    height: 100%; 
+}
+
+h3 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+.aboutContent {
+    padding: 30px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1182px) {
+    h1 {
+      font-size: 70px;
+      padding: 10px;
+    }
+  }

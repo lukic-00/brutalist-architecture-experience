@@ -126,3 +126,44 @@ h3 {
       padding: 10px;
     }
   }
+
+
+.centralEuropeContainer {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.balcanContainer {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+h2 {
+    padding: 30px;
+}
+
+.balcanContainer img {
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 auto;
+}
+
+.cardVerticalImage {
+    max-width: 350px;
+    max-height: 525px;
+}
+
+.cardHorizontalImage {
+    max-width: 787px;
+    max-height: 525px;
+}

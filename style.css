@@ -167,3 +167,29 @@ h2 {
     max-width: 787px;
     max-height: 525px;
 }
+
+.title {
+    font-family: "Monoton", sans-serif;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.homeButton {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.homeButton:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    display: flex;
+    padding: 30px;
+    font-size: 30px;
+}

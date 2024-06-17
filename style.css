@@ -92,7 +92,7 @@ h1 {
 }
 
 .aboutContainer {
-    background-color: grey;
+    background-image: linear-gradient(lightgrey, grey);
     height: 100%; 
 }
 

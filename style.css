@@ -203,3 +203,23 @@ footer.a:hover{
     color: white;
 
 }
+
+.caucasusContainer {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.stanContainer {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 60px;
+    flex-wrap: wrap;
+}

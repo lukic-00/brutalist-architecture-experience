@@ -169,6 +169,24 @@ h2 {
     flex: 1 1 auto;
 }
 
+.centralEuropeContainer img {
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 auto;
+}
+
+.caucasusContainer img {
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 auto;
+}
+
+.stanContainer img {
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 auto;
+}
+
 .cardVerticalImage {
     max-width: 350px;
     max-height: 525px;

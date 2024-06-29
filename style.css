@@ -1,4 +1,3 @@
-/* General Styles */
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 body, html {
@@ -7,6 +6,15 @@ body, html {
     font-family: "Rubik Mono One", monospace;
     background-color: grey;
     scroll-behavior: smooth;
+
+  }
+
+.hero {
+    height: 100%; 
+    background-image: url(images/IMG_4274-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -28,28 +36,42 @@ h1 {
     color: white;
 }
 
-h2 {
-    padding: 30px;
-}
-
-h3 {
-    background-color: white;
+.cardsContainer {
+    background-image: linear-gradient(lightgrey, white);
+    height: 100%; 
     display: flex;
-    align-items: center;
-    padding: 30px;
-    font-size: 30px;
-    font-weight: 100;
-    margin-top: 0;
-}
-
-.cardsContainer, .centralEuropeContainer, .balcanContainer, .caucasusContainer, .stanContainer {
-    display: flex;
-    background-color: lightgray;
     justify-content: center;
+    gap: 70px;
+    padding: 10px;
     align-items: center;
-    padding: 50px;
-    gap: 60px;
     flex-wrap: wrap;
+}
+
+.europeCard {
+    background-image: url(images/IMG_3269.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-basis: 500px;
+    height: 350px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.asiaCard {
+    background-image: url(images/IMG_5414.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-basis: 500px;
+    height: 350px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .cardDescription {
@@ -61,15 +83,29 @@ h3 {
     text-decoration: none;
 }
 
-.cardDescription:hover {
+.cardDescription:hover{
+    padding: 10px;
     color: black;
     background-color: white;
+    font-size: 70px;
+    cursor: pointer;
     box-shadow: 10px 10px black;
+
 }
 
 .aboutContainer {
     background-image: linear-gradient(lightgrey, grey);
-    height: 100%;
+    height: 100%; 
+}
+
+h3 {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 0;
 }
 
 .aboutContent {
@@ -95,6 +131,54 @@ h3 {
     margin: 0px;
 }
 
+@media only screen and (max-width: 1182px) {
+    h1 {
+      font-size: 70px;
+      padding: 10px;
+    }
+  }
+
+
+.centralEuropeContainer {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.balcanContainer {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+h2 {
+    padding: 30px;
+}
+
+.balcanContainer img {
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 auto;
+}
+
+.cardVerticalImage {
+    max-width: 350px;
+    max-height: 525px;
+}
+
+.cardHorizontalImage {
+    max-width: 787px;
+    max-height: 525px;
+}
+
 .title {
     font-family: "Monoton", sans-serif;
     font-size: 70px;
@@ -115,6 +199,10 @@ h3 {
     background-color: white;
     color: black;
     border: 1px solid black;
+    text-decoration: none;
+    display: flex;
+    padding: 30px;
+    font-size: 30px;
 }
 
 footer {
@@ -122,35 +210,27 @@ footer {
     font-size: 30px;
 }
 
-footer a:hover {
+footer.a:hover{
     color: white;
+
 }
 
-.cardVerticalImage, .cardHorizontalImage {
-    width: 100%;
-    max-width: 787px;
-    height: auto;
+.caucasusContainer {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 60px;
+    flex-wrap: wrap;
 }
 
-.cardVerticalImage img, .cardHorizontalImage img {
-    width: 100%;
-    height: auto;
-}
-
-@media only screen and (max-width: 768px) {
-    h1 {
-        font-size: 70px;
-        padding: 10px;
-    }
-    .homeButton, footer {
-        font-size: 24px;
-        padding: 20px;
-    }
-    .cardDescription {
-        font-size: 50px;
-    }
-    header {
-        font-size: 24px;
-        padding: 20px;
-    }
+.stanContainer {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 60px;
+    flex-wrap: wrap;
 }

@@ -24,6 +24,14 @@ header {
     align-items: center;
     padding: 30px;
     font-size: 30px;
+    flex-wrap: wrap;
+}
+
+.headerLinks {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -136,8 +144,7 @@ h3 {
       font-size: 70px;
       padding: 10px;
     }
-  }
-
+}
 
 .centralEuropeContainer {
     display: flex;
